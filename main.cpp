@@ -32,6 +32,10 @@ int main(int argc, const char * argv[]) {
             std::cin >> fighter1;
             std::cin >> fighter2;
             clb.fight(fighter1, fighter2);
+        }else if (message == "delete"){
+            std::string name;
+            std::cin >> name;
+            clb.remove(name);
         }
         else if (message == "rules") clb.rules();
         else if (message == "lms") clb.lastManStanding();

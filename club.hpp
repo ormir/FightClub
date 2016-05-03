@@ -16,6 +16,7 @@
 #include "fighter.hpp"
 #include "ninja.hpp"
 #include "warrior.hpp"
+#include "witch.hpp"
 
 class Club {
 private:

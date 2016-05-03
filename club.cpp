@@ -48,6 +48,7 @@ void Club::rules() const {
 void Club::add(std::string name, std::string type) {
     if (type == "warrior")  fighters[name] = new Warrior(name);
     else if (type == "ninja") fighters[name] = new Ninja(name);
+    else if (type == "witch") fighters[name] = new Witch(name);
     else std::cout << "Type '" << type << "' not in the list" << std::endl;
 }
 
