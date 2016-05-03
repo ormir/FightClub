@@ -1,0 +1,35 @@
+FIGHT CLUB
+Ormir Gjurgjej & Nitika Kumar (c) 2016
+
+----------------------
+-- RULES
+----------------------
+
+1. Don't talk about the fight club
+
+2. Fighters to chose from 
+	
+	Warrior
+	The warrior is a brave fighter that sometimes can attack very strongly
+
+	Ninja
+	Ninjas move very fast, hence they can escape attacks sometimes
+	but still launch a counterattack
+
+3. To add fighters to the club type
+	add [name] [type]
+
+4. To delete fighters from the club type
+	delete [name]
+
+5. To make 2 fighters fight type 
+	fight [name1] [name2]
+
+6. Last Man Standing
+	lms
+
+8. To show all fighters type
+	fighters
+
+7. To exit from the club
+	exit
