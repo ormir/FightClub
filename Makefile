@@ -27,3 +27,6 @@ start: FightClub
 
 clean:
 	rm *.o FightClub
+
+compress:
+	tar czf connect4.tar.gz *
