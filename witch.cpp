@@ -2,7 +2,7 @@
 //  witch.cpp
 //  FightClub
 //
-//  Created by dolly sharma on 5/3/16.
+//  Created by Ormir G. and Nitika K. on 5/3/16.
 //
 //
 

@@ -2,7 +2,7 @@
 //  club.cpp
 //  FightClub
 //
-//  Created by Ormir G. on 30/04/16.
+//  Created by Ormir G. and Nitika K. on 30/04/16.
 //  Copyright © 2016 Ormir Gjurgjej. All rights reserved.
 //
 
@@ -49,6 +49,7 @@ void Club::add(std::string name, std::string type) {
     if (type == "warrior")  fighters[name] = new Warrior(name);
     else if (type == "ninja") fighters[name] = new Ninja(name);
     else if (type == "witch") fighters[name] = new Witch(name);
+    else if (type == "yoda") fighters[name] = new Yoda(name);
     else std::cout << "Type '" << type << "' not in the list" << std::endl;
 }
 

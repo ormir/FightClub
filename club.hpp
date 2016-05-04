@@ -2,7 +2,7 @@
 //  club.hpp
 //  FightClub
 //
-//  Created by Ormir G. on 30/04/16.
+//  Created by Ormir G. and Nitika K. on 30/04/16.
 //  Copyright © 2016 Ormir Gjurgjej. All rights reserved.
 //
 
@@ -17,6 +17,7 @@
 #include "ninja.hpp"
 #include "warrior.hpp"
 #include "witch.hpp"
+#include "yoda.hpp"
 
 class Club {
 private:
