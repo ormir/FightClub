@@ -12,9 +12,11 @@
 
 int main(int argc, const char * argv[]) {
     
+    //Creating the object clb
     Club clb;
     std::string message = "";
     
+    //Welcome to the fight club, don't speak about it
     std::cout << "FIGHT CLUB" << std::endl;
     std::cout << "Ormir Gjurgjej & Nitika Kumar (c) 2016" << std::endl;
     std::cout << "Type 'rules' for more information" << std::endl;
@@ -46,7 +48,6 @@ int main(int argc, const char * argv[]) {
             std::cout << "Type 'rules' for more information" << std::endl;
         }
     }
-    
     
     return 0;
 }

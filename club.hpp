@@ -21,8 +21,10 @@
 
 class Club {
 private:
+    //associating string with pointers called Fighter and storing them in the variable 'fighters'
     std::map<std::string, Fighter*> fighters;
 public:
+    //Constructor
     Club();
     void fight(const std::string, const std::string);
     void rules() const;
@@ -30,6 +32,7 @@ public:
     void add(std::string, std::string);
     void showFighters() const;
     void lastManStanding();
+    //Destructor
     ~Club();
 };
 

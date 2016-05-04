@@ -13,6 +13,7 @@ Fighter(n),
 damage(0) {}
 
 void Ninja::reduceLife(int d) {
+    //saving the lost points in the variable damage to regain them afterwards during a defense attack
     damage = d;
     life -= d;
     
