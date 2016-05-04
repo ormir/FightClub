@@ -33,7 +33,7 @@ bool Fighter::attack(Fighter& f, bool counter) {
     if (counter) {
         std::cout << "Mighty " << name << " strikes back " << f.getName() << " with " << attk << " !!!" << std::endl << std::endl;
     } else {
-        std::cout << "Legendary " << name << " attacs " << f.getName() << " with " << attk << " !!!" << std::endl;
+        std::cout << "Legendary " << name << " attacks " << f.getName() << " with " << attk << " !!!" << std::endl;
     }
     
     f.reduceLife(attk);

@@ -15,7 +15,7 @@ int Yoda::specialAttack(){
     srand((int)time(0));
     int attk = rand() % offence;
     
-    if(rand()%7 == 0){
+    if(rand()%5 == 0){
         attk = 100;
         std::cout << "++May the fourth be with you, mighty " << name << "!!" << std::endl;
     }
